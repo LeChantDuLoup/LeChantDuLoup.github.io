@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", scrolled);
+  loadGallery(null);
 
   function scrolled() {
     printNavbar();
     printUnderline();
+    printButton();
   }
 
   function printNavbar() {
@@ -30,5 +32,75 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   }
-  
+
+  function printButton() {
+    var backToTop = document.getElementById("btn-back-to-top");
+    var comp = document.querySelectorAll(".compProjet");
+
+    for (var i = 0; i < comp.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = comp[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        backToTop.classList.remove("invisible");
+      } else {
+        backToTop.classList.add("invisible");
+      }
+    }
+
+    backToTop.addEventListener("click", () => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    });
+  }
+
+  function loadGallery(img) {
+    console.log(img);
+    if (!img) {
+      img = document.getElementById("img1");
+    } else {
+      var imgId = img.id;
+      img = document.getElementById(imgId);
+    }
+    var bigImg = document.getElementById("img-left");
+    var imgStyle = window.getComputedStyle(img, null);
+    var bgImg = imgStyle.getPropertyValue("background-image");
+    bigImg.style.backgroundImage = bgImg;
+    var activeImgClass = document.querySelectorAll(".activeImg");
+
+    for (var i = 0; i < activeImgClass.length; i++) {
+      activeImgClass[i].classList.remove("activeImg");
+    }
+
+    img.classList.add("activeImg");
+  }
+
+  // var img1 = document.getElementById("img1");
+  // img1.addEventListener("click", function () {
+  //   loadGallery(img1);
+  // });
+
+  // var img2 = document.getElementById("img2");
+  // img2.addEventListener("click", function () {
+  //   loadGallery(img2);
+  // });
+
+  // var img3 = document.getElementById("img3");
+  // img3.addEventListener("click", function () {
+  //   loadGallery(img3);
+  // });
+
+  // var img4 = document.getElementById("img4");
+  // img4.addEventListener("click", function () {
+  //   loadGallery(img4);
+  // });
+
+  var imgs = document.querySelectorAll(".imgGallery");
+  for (let img of imgs) {
+    img.addEventListener("click", function () {
+      console.log(img);
+      loadGallery(img);
+    });
+  }
 });

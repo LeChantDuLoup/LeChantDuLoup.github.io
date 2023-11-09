@@ -9,6 +9,10 @@ p {
   font-size: 2.5vh;
 }
 
+#btn-back-to-top {
+    margin-top: 35%;
+}
+
 /* Hero */
 
 .hero {
@@ -137,6 +141,9 @@ p {
     height: 22vw;
     width: 22vw;
     background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .gallery-right {
@@ -152,6 +159,16 @@ p {
     width: 9vw;
     height: 9vw;
     background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.imgGallery.activeImg {
+    box-shadow: 0px 1px 6px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(255,255,255,0.75);
 }
 
 .right-side {
@@ -172,3 +189,18 @@ p {
     margin-top: 2vh;
 }
 
+#img1 {
+    background-image: url('../assets/portrait.jpg');
+}
+
+#img2 {
+    background-image: url('../assets/cats.jpg');
+}
+
+#img3 {
+    background-image: url('../assets/best_friends_by_ethemos_dfzte9v-pre.jpg');
+}
+
+#img4 {
+    background-image: url('../assets/suzume-wallpaper.jpg');
+}
