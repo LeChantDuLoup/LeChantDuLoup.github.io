@@ -413,6 +413,10 @@ header a:hover {
   margin-left: 0.8vw;
   width: 15vw;
 }
+
+.exp span p {
+  line-height: 2vh;
+}
 .chrono-bot .exp {
   align-items: start;
 }
