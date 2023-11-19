@@ -287,6 +287,8 @@ header a:hover {
   display: flex;
   width: 80%;
   align-items: center;
+  min-height: 20vh;
+  max-height: 20vh;
 }
 
 .icon {
@@ -334,7 +336,9 @@ header a:hover {
 }
 
 .ul-comp li p {
+  margin-top: -2vh;
   font-family: "Jaldi", sans-serif;
+  line-height: 2vh;
 }
 
 /* Parcours */
