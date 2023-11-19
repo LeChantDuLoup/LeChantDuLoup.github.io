@@ -289,9 +289,16 @@ header a:hover {
   height: 5vw;
   width: 5vw;
   border-radius: 0.6vw;
-  background-color: azure;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+#ROS2 {
+  background-image: url('assets/icon/ros2.webp');
+}
+#Gazebo {
+  background-image: url('assets/icon/Apps-Gazebo-icon.png');
+}
 .ul-comp li span {
   margin-left: 2vw;
 }
