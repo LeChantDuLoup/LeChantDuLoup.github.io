@@ -204,6 +204,10 @@ header a:hover {
   animation: wiggle 5s linear infinite;
 }
 
+.dl-cv a {
+  text-decoration: none;
+  color: #ffff;
+}
 .dl-cv i {
   margin-left: 0.8vw;
 }
