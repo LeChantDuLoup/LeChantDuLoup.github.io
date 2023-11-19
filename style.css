@@ -382,7 +382,7 @@ header a:hover {
 }
 .vl {
   border-left: 6px solid rgb(255, 255, 255);
-  height: 100px;
+  height: 110px;
   top: 0;
 }
 
@@ -407,9 +407,12 @@ header a:hover {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  width: 15.5%;
 }
 
+.exp span {
+  margin-left: 0.8vw;
+  width: 15vw;
+}
 .chrono-bot .exp {
   align-items: start;
 }
@@ -428,11 +431,11 @@ header a:hover {
 }
 
 .secondStepBot.appearsExp {
-  animation-delay: 1.6s;
+  animation-delay: 1.9s;
 }
 
 .thirdStepBot.appearsExp {
-  animation-delay: 3.2s;
+  animation-delay: 3.8s;
 }
 
 .firstStepTop.appearsExp {
@@ -440,7 +443,7 @@ header a:hover {
 }
 
 .secondStepTop.appearsExp {
-  animation-delay: 2.5s;
+  animation-delay: 2.8s;
 }
 
 /* Projets */
