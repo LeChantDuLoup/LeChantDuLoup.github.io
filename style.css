@@ -295,6 +295,7 @@ header a:hover {
   border-radius: 0.6vw;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: azure;
 }
 
 #ROS2 {
