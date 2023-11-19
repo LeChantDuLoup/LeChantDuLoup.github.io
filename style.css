@@ -294,7 +294,7 @@ header a:hover {
   width: 5vw;
   border-radius: 0.6vw;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: azure;
 }
 
@@ -304,6 +304,31 @@ header a:hover {
 #Gazebo {
   background-image: url('assets/icon/Apps-Gazebo-icon.png');
 }
+
+#Python {
+  background-image: url('assets/icon/python.webp');
+}
+
+#MatLab {
+  background-image: url('assets/icon/Matlab_Logo.webp');
+}
+
+#SQL {
+  background-image: url('assets/icon/SQL.webp');
+}
+
+#Linux {
+  background-image: url('assets/icon/Linux-icon.webp');
+}
+
+#SolidWorks {
+  background-image: url('assets/icon/SolidWorks.webp');
+}
+
+#Catia {
+  background-image: url('assets/icon/Catia.webp');
+}
+
 .ul-comp li span {
   margin-left: 2vw;
 }
