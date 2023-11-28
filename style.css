@@ -463,20 +463,17 @@ header a:hover {
 }
 
 .projects-gallery {
-  margin-left: 15vw;
   margin-top: 5vh;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .firstGallery {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-right: 15vw;
+  justify-content: space-between;
 }
 
 .secondGallery {
