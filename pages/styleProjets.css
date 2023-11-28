@@ -36,6 +36,16 @@ p {
   width: 21vw;
 }
 
+
+#title-aquabot{
+  width: 15vw;
+}
+
+.underline-aquabot {
+  width: 15vw;
+}
+
+
 .date {
   font-family: "Jaldi", sans-serif;
 }
