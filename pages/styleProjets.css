@@ -28,6 +28,14 @@ p {
   margin-block-end: 2.1vh;
 }
 
+#title-nautilus{
+  width: 21vw;
+}
+
+.underline-nautilus {
+  width: 21vw;
+}
+
 .date {
   font-family: "Jaldi", sans-serif;
 }
@@ -82,8 +90,9 @@ p {
   display: flex;
   width: 90%;
   justify-content: space-between;
-  align-self: center;
+  margin: auto;
   margin-top: 4vh;
+  margin-left: 5%;
 }
 
 .compGallery {

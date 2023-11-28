@@ -76,26 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
     img.classList.add("activeImg");
   }
 
-  // var img1 = document.getElementById("img1");
-  // img1.addEventListener("click", function () {
-  //   loadGallery(img1);
-  // });
-
-  // var img2 = document.getElementById("img2");
-  // img2.addEventListener("click", function () {
-  //   loadGallery(img2);
-  // });
-
-  // var img3 = document.getElementById("img3");
-  // img3.addEventListener("click", function () {
-  //   loadGallery(img3);
-  // });
-
-  // var img4 = document.getElementById("img4");
-  // img4.addEventListener("click", function () {
-  //   loadGallery(img4);
-  // });
-
   var imgs = document.querySelectorAll(".imgGallery");
   for (let img of imgs) {
     img.addEventListener("click", function () {
