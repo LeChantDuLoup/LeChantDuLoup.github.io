@@ -44,6 +44,21 @@ p {
 .underline-aquabot {
   width: 15vw;
 }
+#title-neurones{
+  width: 19vw;
+}
+
+.underline-neurones {
+  width: 19vw;
+}
+
+#title-clarification{
+  width: 21vw;
+}
+
+.underline-clarification {
+  width: 21vw;
+}
 
 
 .date {
