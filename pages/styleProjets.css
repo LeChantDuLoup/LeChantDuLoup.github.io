@@ -223,12 +223,24 @@ p {
     margin-top: 2vh;
 }
 
+#Bas_clar {
+  background-image: url('../assets/Images/BassinClar/Bas_clar.png');
+}
+
+#coupe_bas {
+  background-image: url('../assets/Images/BassinClar/Coupe_bas.png');
+}
+
+#etude_bas {
+  background-image: url('../assets/Images/BassinClar/etude_bas.PNG');
+}
+
 #img1 {
-    background-image: url('../assets/Images/BassinClar/Bas_clar.png');
+    background-image: url('../assets/cats.jpg');
 }
 
 #img2 {
-    background-image: url('../assets/Images/BassinClar/Coupe_bas.png');
+    background-image: url('../assets/portrait.jpg');
 }
 
 #img3 {
