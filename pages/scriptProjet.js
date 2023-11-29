@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function loadGallery(img) {
-    console.log(img);
     if (!img) {
       img = document.getElementById("img1");
     } else {

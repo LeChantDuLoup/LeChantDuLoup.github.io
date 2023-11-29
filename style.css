@@ -522,7 +522,7 @@ header a:hover {
 .projectImg {
   width: 20vw;
   height: 26.3vh;
-  background-color: azure;
+  background-image: ur;
   display: block;
   overflow: hidden;
 }
@@ -544,6 +544,14 @@ header a:hover {
   );
   background-origin: border-box;
   background-clip: content-box, border-box;
+}
+
+#img-bassinClar{
+  background-color: azure;
+  background-image: url('./assets/Images/BassinClar/Bas_clar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 4vh;
 }
 
 .projectButton {
