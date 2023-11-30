@@ -556,18 +556,20 @@ header a:hover {
 #img-reseaudeneurone{
   background-color: azure;
   background-image: url('./assets/Images/reseau_de_neurone/presentation_page.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #img-aquabot{
   background-color: azure;
   background-image: url('./assets/Images/aquabot/touchcoul.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #img-nautilus{
   background-color: azure;
   background-image: url('./assets/Images/nautilus/image_réel.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .projectButton {
