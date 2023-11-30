@@ -568,8 +568,6 @@ header a:hover {
 #img-nautilus{
   background-color: azure;
   background-image: url('./assets/Images/nautilus/image_réel.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .projectButton {
