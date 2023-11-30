@@ -553,6 +553,27 @@ header a:hover {
   background-repeat: no-repeat;
   background-position-y: 4vh;
 }
+#img-reseaudeneurone{
+  background-color: azure;
+  background-image: url('./assets/Images/reseau_de_neurone/presentation_page.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 4vh;
+}
+#img-aquabot{
+  background-color: azure;
+  background-image: url('./assets/Images/aquabot/touchcoul.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 4vh;
+}
+#img-nautilus{
+  background-color: azure;
+  background-image: url('./assets/Images/nautilus/image_réel.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 4vh;
+}
 
 .projectButton {
   cursor: pointer;
